@@ -149,10 +149,12 @@
     methods: {
 
       main() {
+          
         if(this.input.name.length > 0 && this.input.playerScore >= 0){
           this.$store.dispatch("handle_winner", this.input);
-          this.$router.push({name:'ShipnityTicTacToeMain'});
+          
         }
+        this.$router.push({name:'ShipnityTicTacToeMain'});
       },
 
       setInitial() {
