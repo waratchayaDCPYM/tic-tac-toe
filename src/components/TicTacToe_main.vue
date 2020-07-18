@@ -65,7 +65,7 @@
 
 .background-color{
   background: linear-gradient(120DEG, #2A1C52, #6648C4);
-  background-image: url('D:/Shipnity_XO_game/src/assets/background.png');
+  background-image: url('../assets/background.png');
   background-size: 1920px 1080px;
   height: 100%;
   margin: 0;
